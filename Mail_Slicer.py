@@ -2,8 +2,9 @@
 # 3:22 PM March 22, 2021
 # Playing: Sa Susunod na Lang by Skusta Clee
 
-import xlwt
+# import xlwt
 from xlwt import Workbook
+import sys
 
 wb = Workbook()
 sheet1 = wb.add_sheet('Mail Slicer')
@@ -34,7 +35,7 @@ def m_slice(mail_ct):
         sheet1.write(ctr + 1, 3, host)
         
         wb.save('slice_3.xls') 
-    return 
+    return sys.exit()
 
 mail_ct = int(input("How many e-mail addresses will you enter? "))
 print(input(m_slice(mail_ct)))
