@@ -2,11 +2,12 @@
 """
 Created on Wed Mar 24 17:01:14 2021
 
-@author: user
+@author: cladz
 """
 import string
 import time
 import random
+import sys
 
 letters = list(string.ascii_letters)
 num = ['0','1','2','3','4','5','6','7','8','9']
@@ -27,8 +28,11 @@ def random_pw(length):
             nu = random.choice(num)
             result = result + nu
             continue
+    
+    time.sleep(2)
     print("Your %d-digit-long randomly generated password is: %s" % (length,result))
-    return 
+ 
+    return sys.exit()
 
 print("Welcome to Random Password Generator!" + "\n")
 time.sleep(2)
