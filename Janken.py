@@ -7,6 +7,7 @@ Created on Tue Mar 23 20:44:22 2021
 
 import random
 import time
+import sys
 
 pt_cpu = 0
 pt_user = 0
@@ -55,8 +56,8 @@ def janken(rounds):
             draw_cpu = ["Rematch?", "Sayaw na lang tayong2 dalawa", "Gusto ko ako lang gustooo"]
             draw_cpu_resp = random.choice(draw_cpu)
             print(draw_cpu_resp.upper())
-            
-    return
+      
+    return  sys.exit()  
 
 print("Welcome to Janken!" + "\n")
 rounds = int(input("How many rounds do you want to play? "))
