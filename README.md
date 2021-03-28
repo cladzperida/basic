@@ -2,4 +2,4 @@
 
 Pass time coding for fun!
 
-Latest: Word Guesser (Hangman) [Raw]
+Latest: Pi Digit Counter Visualized
