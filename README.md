@@ -2,6 +2,6 @@
 
 Pass time coding for fun!
 
-Latest: Pi Digit Counter Visualized
+Latest: Simple Username and Password using Python
 
-Next: Simple Username and Password using Python
+Next: n/a
