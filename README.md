@@ -2,6 +2,6 @@
 
 Pass time coding for fun!
 
-Latest: Simple Username and Password using Python
+Latest: Simple Pattern Finder and Extrapolator [arithmetic & geometric progression]
 
-Next: Something related to basic machine learning [predicting]
+Next: Anything about curve fitting hehe
