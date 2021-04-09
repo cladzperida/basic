@@ -2,6 +2,6 @@
 
 Pass time coding for fun!
 
-Latest: Simple Pattern Finder and Extrapolator [arithmetic & geometric progression]
+Latest: F.L.A.M.E.S. (Filipino childhood romance game)
 
-Next: Anything about curve fitting hehe
+Next: Data Visualization!
