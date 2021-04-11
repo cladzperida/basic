@@ -15,39 +15,31 @@ rep = 0
 repeat_list1 = []
 repeat_list2 = []
 
-# flames = ['f','l','a','m','e','s','F','L','A','M','E','S']
 
 print("Crush ka ba ng crush mo?")
 time.sleep(1)
 print("Gaano kayo ka-match???")
-time.sleep(1.5)
+time.sleep(0.5)
 print("Welcome to F.L.A.M.E.S!")
-time.sleep(2)
+time.sleep(1)
 
 name1 = input("Enter name 1: ")
 name1a = list(name1)
 name1a.remove(" ")
 name1a = [x.lower() for x in name1a]
-ctr1 = len(name1a)
-
-time.sleep(1)
-print("Yown!!!")
-time.sleep(1)
 
 name2 = input("Enter name 2: ")
 name2a = list(name2)
 name2a.remove(" ")
 name2a = [x.lower() for x in name2a]
-ctr2 = len(name2a)
 
-time.sleep(1.5)
+time.sleep(1)
 print("The names you've entered are '%s' and '%s'. Yown bagay!!!" % (name1,name2))
-time.sleep(1.5)
+time.sleep(0.5)
 
 for x in name1a: # 'J'
     for y in name2a: # name 2
         if x == y: # matching element x from name1 to element y from flames 
-            match += 1 # dont count
             na_ctr = 0
             break
         else: # x != y
@@ -65,7 +57,6 @@ n1_pts = len(n1)
 for x in name2a:
     for y in name1a: # name 2
         if x == y: # matching element x from name1 to element y from flames 
-            match += 1 # dont count
             na_ctr = 0
             break
         else: # x != y
@@ -79,27 +70,22 @@ n2 = np.unique(n2) # find unique letters
 n2 = n2.tolist()
 n2_pts = len(n2)
 
-print("Hmmm...")
-time.sleep(2)
 print("And your F.L.A.M.E.S. result is...")
-time.sleep(2)
+time.sleep(1)
 
 match = n1_pts + n2_pts
 
-if (match == 1) or (match - 6 == 1):
+print("\n")
+
+if (match == 1) or (match - 6 == 1) or (match - 6*2 == 1):
     print("F as in Friends! (or F's in the chat) with %d matches" % match)
-if (match == 2) or (match - 6 == 2):
+if (match == 2) or (match - 6 == 2) or (match - 6*2 == 2):
     print("L as in Lovers! Yown! with %d matches" % match)
-if (match == 3) or (match - 6 == 3):
+if (match == 3) or (match - 6 == 3) or (match - 6*2 == 3):
     print("A as in Angery! Grrrr! with %d matches" % match) 
-if (match == 4) or (match - 6 == 4):
+if (match == 4) or (match - 6 == 4) or (match - 6*2 == 4):
     print("M as in Marriage! Kelan kasal?! with %d matches" % match)
-if (match == 5) or (match - 6 == 5):
+if (match == 5) or (match - 6 == 5) or (match - 6*2 == 5):
     print("E as in Enemies! Sapakan! with %d matches" % match)
-if (match == 6) or (match - 6 == 6):
-    print("S as in Stepbro/Stepsis! Dejk ano ba yung S xDDDD with %d matches" % match)
-time.sleep(5)
-
-
-# 1) Fix Repeat List
-# 2) Only issue remaining is the repeated letters to be subtracted from total match
+if (match == 6) or (match - 6 == 6) or (match - 6*2 == 6):
+    print("S as in Soulmates! Yieeee xDDDD with %d matches" % match)
