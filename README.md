@@ -2,6 +2,6 @@
 
 Pass time coding for fun!
 
-Latest: F.L.A.M.E.S. (Filipino childhood romance game)
+Latest: Most Common Words in your input text Visualizer
 
-Next: Data Visualization!
+Next: 
